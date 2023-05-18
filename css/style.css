@@ -158,10 +158,15 @@ img {
     grid-template-rows: repeat(2, 1fr);
 }
 
+/* select any element which is first child of class grid inside class cli (image in our case) */
 .cli .grid > *:first-child {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
+
+
+
+
 
 
 
